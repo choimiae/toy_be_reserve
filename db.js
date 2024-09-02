@@ -1,10 +1,10 @@
 const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
-	host: 'localhost',
-	user: 'root',
-	password: 'root',
-	database: 'toy_db_reserve'
+	host: 'database-1.cre6qq2ayux9.ap-northeast-2.rds.amazonaws.com',
+	user: 'admin',
+	password: 'admin1234',
+	database: 'toy_reserve'
 });
 
 connection.connect((err) => {
